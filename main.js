@@ -46,7 +46,7 @@ function init() {
   // textures
 
   const textureLoader = new THREE.TextureLoader();
-  const map = textureLoader.load( 'assets/textures/circle_05.png' );
+  const map = textureLoader.load( 'assets/textures/circle_02.png' );
 
   //
 
@@ -71,7 +71,7 @@ function init() {
     position.y = 0; // randY.mul( 10 );
     position.z = randZ.mul( 10 ).add( - 5 );
 
-    color.assign( vec3( randX, randY, randZ ) );
+    color.assign( vec3( 1.0, 1.0, 1.0 ) );
 
   } )().compute( particleCount );
 
