@@ -46,7 +46,7 @@ function init() {
   // textures
 
   const textureLoader = new THREE.TextureLoader();
-  const map = textureLoader.load( 'assets/textures/circle.png' );
+  const map = textureLoader.load( 'assets/textures/circle_05.png' );
 
   //
 
